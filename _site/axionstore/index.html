@@ -136,7 +136,7 @@ mixpanel.track('Page View');
     <div class="col-md-4 col-12 px-4 align-items-center">
       <div class="card service guide mb-4 border-primary border-2 ">
         <div class="card-body rounded">
-          <h4 class="card-title"><a class='text-decoration-none' href="https://gum.co/axionstack">Buy Axion Stack</a></h4>
+          <h4 class="card-title"><a class='text-decoration-none' onclick='mixpanel.track("Gumroad")' href="https://gum.co/axionstack">Buy Axion Stack</a></h4>
           <div class="row">
             <div class="col-md-2 col-lg-2">
               <hr style="border-top: 1px solid #888;">
@@ -155,7 +155,7 @@ mixpanel.track('Page View');
           <div class="row align-items-center justify-content-center">
             <div class="col-12 text-center">
               <script src="https://gumroad.com/js/gumroad.js"></script>
-              <a class="gumroad-button" href="https://gumroad.com/l/ZuwVM?wanted=true" target="_blank" data-gumroad-single-product="true">Buy Now</a>
+              <a class="gumroad-button" onclick='mixpanel.track("Gumroad")' href="https://gumroad.com/l/ZuwVM?wanted=true" target="_blank" data-gumroad-single-product="true">Buy Now</a>
             </div>
           </div>
 
@@ -206,7 +206,7 @@ mixpanel.track('Page View');
             <a class='foot-link' href='#'>Documentation</a>
           </li>
           <li>
-            <a class='foot-link' href='#pricing'>Pricing</a>
+            <a class='foot-link' href='/#pricing'>Pricing</a>
           </li>
         </ul>
       </div>

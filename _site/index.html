@@ -52,7 +52,7 @@ mixpanel.track('Page View');
 
 
         <li class='nav-item'>
-          <a class="nav-link" href="/#pricing">Pricing</a>
+          <a class="nav-link" href="/#pricing" onclick="mixpanel.track('Pricing View')">Pricing</a>
         </li>
 
         <li class='nav-item'>
@@ -89,7 +89,7 @@ mixpanel.track('Page View');
 
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_37d036446529d86cdf2a7ba32_99cbfeb569" tabindex="-1" value=""></div>
 
-            <button type="submit" class="mb-2 btn btn-lg btn-primary">
+            <button type="submit" onclick='mixpanel.track("Register")' class="mb-2 btn btn-lg btn-primary">
               Request Access
               <i class="las la-arrow-right"></i>
             </button>
@@ -395,7 +395,7 @@ mixpanel.track('Page View');
             <a class='foot-link' href='#'>Documentation</a>
           </li>
           <li>
-            <a class='foot-link' href='#pricing'>Pricing</a>
+            <a class='foot-link' href='/#pricing'>Pricing</a>
           </li>
         </ul>
       </div>
