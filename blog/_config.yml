@@ -1,0 +1,61 @@
+# Site
+name: 'Axion Stack'
+description: 'Toolkits for micro-SaaS'
+logo: 'assets/images/logo.png'
+
+baseurl: '/blog'
+disqus: ''
+email: 'awin@axionstack.com'
+mailchimp-list:
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-category-pages
+
+
+collections:
+  category:
+    output: true
+
+authors:
+  awin:
+    name:           Awin
+    avatar:         assets/img/awin.jpg
+    bio:            "👋 Hello, I am Awin, Founder at Axion Stack. <br /><br />We are on a mission to help micro-SaaS businesses get off the ground! <i>Feel free to reachout for any feedback / questions.</i>"
+    email:          awin@neumeral.com
+    twitter:        https://twitter.com/AxionStack
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: awin
+      avatar: /assets/images/awin.jpg
+
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 5
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.md, Gemfile, Gemfile.lock, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

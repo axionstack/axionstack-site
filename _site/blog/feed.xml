@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-06-30T08:44:53+05:30</updated><id>/blog/feed.xml</id><title type="html">Axion Stack</title><subtitle>Toolkits for micro-SaaS</subtitle><entry><title type="html">Build vs Buy - things to consider</title><link href="/blog/build-vs-buy/" rel="alternate" type="text/html" title="Build vs Buy - things to consider" /><published>2021-06-29T10:32:00+05:30</published><updated>2021-06-29T10:32:00+05:30</updated><id>/blog/build-vs-buy</id><content type="html" xml:base="/blog/build-vs-buy/">&lt;p&gt;What should you consider before deciding on building code yourself or to buy an off-the-shelf solution? Well, it depends.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are some of the factors you should consider, with examples.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-aligns-with-your-priorities&quot;&gt;What aligns with your priorities?&lt;/h3&gt;
+
+&lt;p&gt;Get your priorities straight. If you are just starting to build an app, the priority should be to figure out ways to get your first customers.&lt;/p&gt;
+
+&lt;p&gt;Focus on first things first. Eliminate anything that sidetracks you from your plan of action.&lt;/p&gt;
+
+&lt;p&gt;The first versions of many apps did not even have a feature to charge users.&lt;/p&gt;
+
+&lt;p&gt;How far away are you from getting the first customers or moving the needle on your north star metric? Does what you are doing now, align with these priorities?&lt;/p&gt;
+
+&lt;p&gt;Maybe, &lt;em&gt;coding&lt;/em&gt; your landing page - will not align with it, and you would rather buy, or use a service for your landing page.&lt;/p&gt;
+
+&lt;p&gt;If you are just starting out, your focus should rather be on the copy / messaging to your customers.&lt;/p&gt;
+
+&lt;p&gt;Design and the “looks” of it is secondary to some extend (unless it is a barrier to conveying your message). The standards are pretty high these days, but getting something should not be difficult.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-this-your-core-business&quot;&gt;Is this your core business?&lt;/h3&gt;
+
+&lt;p&gt;During initial stages of building your app focusing most of your time on your core business is the way to go. Any time spent otherwise is a case for finding a tool that does it for you.&lt;/p&gt;
+
+&lt;p&gt;That being said, delegating something that is highly coupled to your core business, is a bad idea. This adds dependency to external systems which you have no control on.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-much-time-and-money&quot;&gt;How much time and money?&lt;/h3&gt;
+
+&lt;p&gt;This one is a very obvious and straight forward question.&lt;/p&gt;
+
+&lt;p&gt;How much time and resources does it take you or your team to build a system versus how much time will it take, to just integrate an off-the-shelf product.&lt;/p&gt;
+
+&lt;p&gt;To a great extend, the frameworks that we build on - like &lt;em&gt;Django&lt;/em&gt; or &lt;em&gt;Ruby on Rails&lt;/em&gt; - offers a lot of in-built features, and comes with an ecosystem of packages that can be readily integrated without much effort.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-the-risks-andor-future-costs&quot;&gt;What are the risks and/or future costs?&lt;/h3&gt;
+&lt;p&gt;When you are building a feature from scratch, consider the probablilty of throwing away the code in the future. The &lt;code class=&quot;highlighter-rouge&quot;&gt;risk&lt;/code&gt; involved in shelving a feature or product, and along with it the time and money lost should be evaluated.&lt;/p&gt;
+
+&lt;p&gt;This is also worth considering for the buy option. There is risk involved in the product not existing anymore, or the product pivoting into something else. Having a Plan B, or a list of alternative products is always handy.&lt;/p&gt;
+
+&lt;p&gt;Building or integrating is not the only step. There is also costs involved in maintaining it.&lt;/p&gt;
+
+&lt;p&gt;Lets consider the example of a billing system. Not only is creating a billing system a very complex affair, but also the time and costs of maintaining it with the complexities of regulations, and changes in your own pricing logic is very high.&lt;/p&gt;
+
+&lt;p&gt;Maintenance costs are relatively small for integration of products, but well, it depends. Breaking changes in API, in external services (though not very common), would have your team working on &lt;em&gt;fixing&lt;/em&gt; your system for days.&lt;/p&gt;
+
+&lt;h3 id=&quot;does-it-eliminate-code&quot;&gt;Does it eliminate code?&lt;/h3&gt;
+
+&lt;p&gt;With the advent of SaaS and services that focus on &lt;code class=&quot;highlighter-rouge&quot;&gt;doing one thing really well&lt;/code&gt;, you can delegate parts of your application to external apps. Having no code to maintain for aspects you are not interested in, is a great investment.&lt;/p&gt;
+
+&lt;p&gt;For example, using services like Stripe, Auth0, will make payments and authentication “not my headache anymore”. You can just make use of these great tools - allow them to do their thing &lt;em&gt;very well&lt;/em&gt; - and focus on what is important to you.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-you-get-any-superpowers&quot;&gt;Do you get any superpowers?&lt;/h3&gt;
+
+&lt;p&gt;Most times the tool you are considering to buy, will have 10 other features; other than the one that you are most interested in. Will you be able to leverage those options as well?&lt;/p&gt;
+
+&lt;p&gt;For example, if you are considering to use Webflow for your landing page, may be you can use it to create a one off store as well using their e-commerce features. So that kills two birds in one shot!&lt;/p&gt;
+
+&lt;p&gt;This will be true for most of the tools that you are evaluating. Don’t just stop at evaluating the only feature you are interested in - get a wholistic view of the tool/product and brainstorm ideas on how you can use some of its other features.&lt;/p&gt;
+
+&lt;div class=&quot;divider&quot;&gt;...&lt;/div&gt;
+
+&lt;p&gt;In this day and age, we have a plethora of tools for creating apps and projects. Its all about standing on the shoulders of the right giants. Creating and following a set framework to evaluate tools early enough in your startup journey will definitely help. These questions will help you weigh your options carefully, and find out the ones that best fits your needs.&lt;/p&gt;
+
+&lt;div class=&quot;border p-3 bg-light rounded my-4&quot;&gt;
+
+&lt;i&gt;&lt;strong&gt;Axion Stack&lt;/strong&gt; helps developers to cut-down time and money on getting a SaaS app up and running. This allows you to focus on your core business. &lt;a href=&quot;https://calendly.com/awin/lets-talk&quot;&gt;Schedule a call&lt;/a&gt; today, to know if it is a good fit for you.&lt;/i&gt;
+
+&lt;/div&gt;</content><author><name>awin</name></author><category term="featured" /><category term="sticky" /><summary type="html">What should you consider before deciding on building code yourself or to buy an off-the-shelf solution? Well, it depends.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/assets/img/posts/build-buy.jpg" /></entry><entry><title type="html">Finding a name for your app</title><link href="/blog/finding-a-name-for-your-app/" rel="alternate" type="text/html" title="Finding a name for your app" /><published>2021-06-26T01:32:00+05:30</published><updated>2021-06-26T01:32:00+05:30</updated><id>/blog/finding-a-name-for-your-app</id><content type="html" xml:base="/blog/finding-a-name-for-your-app/">&lt;p&gt;A “good” name helps to convey your message, and sometimes even help in its virality. It should just “click” for your prospective customers.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Here is my process of finding a good name for your app.&lt;/p&gt;
+
+&lt;h3 id=&quot;finding-terms-related-to-your-functional-domain&quot;&gt;Finding terms related to your functional domain&lt;/h3&gt;
+
+&lt;p&gt;Make a list of words that are related to your functional domain. It can be something that is direct, or a synonym, or some of the verbs and nouns used in your industry.&lt;/p&gt;
+
+&lt;p&gt;For eg. if your idea is something related to meetings - it can be “meeting”, “agenda”, “convention”, “session” etc.&lt;/p&gt;
+
+&lt;p&gt;If you can possibly find something that is related, that also brings a positive feeling - it would work fantastic.&lt;/p&gt;
+
+&lt;p&gt;For eg, “Progress” can be used as the name of an app that targets / measures student learning outcomes. It brings a nice positive feeling, when you say the word.&lt;/p&gt;
+
+&lt;h3 id=&quot;using-suffixes-and-prefixes&quot;&gt;Using suffixes and prefixes&lt;/h3&gt;
+
+&lt;p&gt;You can use some commonly used suffixes or prefixes if the direct word is not available as a &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, Slack was slackhq.com, in the initial days.&lt;/p&gt;
+
+&lt;p&gt;Some prefixes you can use are - &lt;code class=&quot;highlighter-rouge&quot;&gt;try&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;use&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;get&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;meet&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And suffixes - &lt;code class=&quot;highlighter-rouge&quot;&gt;hq&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;fx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;app&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;searching-for-a-domain&quot;&gt;Searching for a domain&lt;/h3&gt;
+
+&lt;p&gt;Based on the keywords figured out above, there are many tools available online that can help you figure out a good domain.&lt;/p&gt;
+
+&lt;p&gt;Should it always be a &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; domain? Yes, stick to &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; as much as possible. People tend to “trust” &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; the most.&lt;/p&gt;
+
+&lt;p&gt;The other TLDs(&lt;a href=&quot;https://en.wikipedia.org/wiki/Top-level_domain&quot;&gt;top level domains&lt;/a&gt;) are good as well, but if &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; is taken and points to something else, your prospective customers might be confused. And it won’t help SEO either.&lt;/p&gt;
+
+&lt;p&gt;The following are some domain search tools:&lt;/p&gt;
+
+&lt;h5 id=&quot;for-one-word-domains&quot;&gt;For one word domains&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://wordoid.com/&quot;&gt;Wordoid&lt;/a&gt;
+Helps you to “create” words that looks and sounds good.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.oneword.domains/&quot;&gt;One Word Domains&lt;/a&gt;
+Gives you a list of one word domains for tlds like - &lt;code class=&quot;highlighter-rouge&quot;&gt;.app&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.ai&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.co&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.io&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;for-two-word-domains&quot;&gt;For two word domains&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://leandomainsearch.com/&quot;&gt;Lean Domain Search&lt;/a&gt;
+Gives you list of 2 word domains which has &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; available to register. It also shows Twitter account availability.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://aidomainsearch.com/&quot;&gt;AI Domain Search&lt;/a&gt;
+Gives you ideas on how you can make domains by combining words, suffixes or prefixes. Some of the domains might be taken, but it will still help you in figuring out a good domain.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;check-trademarks&quot;&gt;Check trademarks&lt;/h3&gt;
+&lt;p&gt;For the domains you shortlisted, check if there exists any trademarks for any of it. You can use a free trademark checking tool like &lt;a href=&quot;https://www.trademarkelite.com/&quot;&gt;TrademarkElite&lt;/a&gt; to check trademark registration in 180+ countries.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-a-google-search&quot;&gt;Do a google search&lt;/h3&gt;
+&lt;p&gt;Do a google search of your shortlisted domain, and check what the current results are? Is it used somewhere else? Is it some famous brand? Is it used somewhere else - say for eg. is it a name of a drug/medicine?&lt;/p&gt;
+
+&lt;p&gt;If it doesnt have many search results, then it is good to go.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-the-radio-test&quot;&gt;Do the Radio Test&lt;/h3&gt;
+&lt;p&gt;If suppose, someone talks about your app in a radio show, will it be easy enough for listeners to type it and go to the webpage directly or do a google search? This is an important factor for word-of-mouth growth, or when friends refer your app in a casual talk.&lt;/p&gt;
+
+&lt;p&gt;Making use of simple words, with no spelling tricks, would be helpful here.&lt;/p&gt;
+
+&lt;h3 id=&quot;avoid-word-combination-mishaps&quot;&gt;Avoid word combination mishaps&lt;/h3&gt;
+&lt;p&gt;Re-check your domains to avoid mishaps like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Expert&lt;em&gt;sex&lt;/em&gt;change.com (Experts Exchange)&lt;/li&gt;
+  &lt;li&gt;Speedo&lt;em&gt;fart&lt;/em&gt;.com (Speed of Art)&lt;/li&gt;
+  &lt;li&gt;The&lt;em&gt;rapist&lt;/em&gt;finder.com (Therapist Finder)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;test-it-with-your-friends&quot;&gt;Test it with your friends&lt;/h3&gt;
+
+&lt;p&gt;And finally, send your final shortlist to your friends, and ask them what they think about it. Human feedback can bring some interesting facts and perspectives, that you might not have thought of.&lt;/p&gt;
+
+&lt;div class=&quot;divider&quot;&gt;...&lt;/div&gt;
+
+&lt;p&gt;There are many factors that go into making an app successful. Finding a good name is just one of them. The name should bring a sense of trust, and positive vibes in the minds of your customers.&lt;/p&gt;
+
+&lt;p&gt;Combine this with a good product and it will result in increased number of social shares, and higher popularity.&lt;/p&gt;
+
+&lt;div class=&quot;border p-3 bg-light rounded my-4&quot;&gt;
+&lt;h4 class=&quot;mt-0 mb-1&quot;&gt;Thinking of creating a new app?&lt;/h4&gt;
+&lt;p class=&quot;text-muted text-sm&quot;&gt;You should give Axion Stack a try!&lt;/p&gt;
+
+&lt;i&gt;&lt;strong&gt;Axion Stack&lt;/strong&gt; helps developers to cut-down time and money on getting a SaaS app up and running. This allows you to focus on your core business. &lt;a href=&quot;https://calendly.com/awin/lets-talk&quot;&gt;Schedule a call&lt;/a&gt; today, to know if it is a good fit for you.&lt;/i&gt;
+
+&lt;/div&gt;</content><author><name>awin</name></author><summary type="html">A “good” name helps to convey your message, and sometimes even help in its virality. It should just “click” for your prospective customers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/assets/img/posts/naming.jpg" /></entry><entry><title type="html">Django for microapps?</title><link href="/blog/django-for-microservices/" rel="alternate" type="text/html" title="Django for microapps?" /><published>2021-06-25T01:32:00+05:30</published><updated>2021-06-25T01:32:00+05:30</updated><id>/blog/django-for-microservices</id><content type="html" xml:base="/blog/django-for-microservices/">&lt;p&gt;Django is a batteries included framework, packed with a lot of features. Can we use it to create a small app - say for example just to host a form or a list?&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Django comes with a lot of sane defaults.&lt;/p&gt;
+
+&lt;p&gt;It is a fully loaded framework and has a configurable auth module, and admin framework included.&lt;/p&gt;
+
+&lt;p&gt;In the security department - it has XSS, CSRF, clickjacking and SQL injection protection built in. Read more about django security &lt;a href=&quot;https://docs.djangoproject.com/en/3.2/topics/security/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Together with the simplicity of the Python language, Django is one of the easiest frameworks to get started with. In fact, one of the design principles of the framework is to make development as quick as possible. You can get a simple app built and deployed in a matter of hours.&lt;/p&gt;
+
+&lt;p&gt;So, is it possible to use the fully loaded framework for achiveving something simple like hosting a form, without all the clutter of its folder structure?&lt;/p&gt;
+
+&lt;p&gt;Yes, definitely!&lt;/p&gt;
+
+&lt;h3 id=&quot;making-a-django-app-in-a-single-file&quot;&gt;Making a django app in a single file&lt;/h3&gt;
+
+&lt;p&gt;This article will detail out how to build a django app in a single file.&lt;/p&gt;
+
+&lt;p&gt;Django by default has a unique folder structure. It has a project folder, and separate folders for each “app”. And each of these folders have files for url routes, settings etc.&lt;/p&gt;
+
+&lt;p&gt;To create a minimal one file app we need to define the following:&lt;/p&gt;
+
+&lt;h5 id=&quot;1-settingsconfiguration-for-django-in-the-file&quot;&gt;1. Settings/configuration for Django in the file&lt;/h5&gt;
+&lt;p&gt;We need the configuration to tell django where to look for the url patterns - as a bare minimum.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.conf&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;configure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ROOT_URLCONF&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;2-request-handler&quot;&gt;2. Request handler&lt;/h5&gt;
+&lt;p&gt;We need a function to handle the request, and return a response.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.http&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HttpResponse&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, Django!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;3-url-patterns&quot;&gt;3. URL patterns&lt;/h5&gt;
+
+&lt;p&gt;Lets point the root url &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; to the request handler defined above.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;urlpatterns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h5 id=&quot;4-wsgi-init&quot;&gt;4. WSGI init&lt;/h5&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.core.handlers.wsgi&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WSGIHandler&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WSGIHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Putting it all together, there is your django app in a single file.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.conf&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.core.handlers.wsgi&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WSGIHandler&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.http&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HttpResponse&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.urls&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;configure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ROOT_URLCONF&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, Django!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;urlpatterns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hello_world&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WSGIHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can run it with &lt;code class=&quot;highlighter-rouge&quot;&gt;gunicorn&lt;/code&gt; with the following command.&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gunicorn hello_django:application
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;a-separate-folder-for-templates&quot;&gt;A separate folder for templates&lt;/h4&gt;
+
+&lt;p&gt;You can make it a bit more functional, by creating a separate folder for templates, along with the settings to configure the template directory. This will keep your html files separate, and not clutter the Python code.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pathlib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;BASE_DIR&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__file__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;configure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ROOT_URLCONF&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;TEMPLATES&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;BACKEND&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;django.template.backends.django.DjangoTemplates&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;DIRS&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BASE_DIR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;templates&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)],&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;more-settings-additions&quot;&gt;More &lt;code class=&quot;highlighter-rouge&quot;&gt;settings&lt;/code&gt; additions&lt;/h4&gt;
+
+&lt;p&gt;Add middlewares, and secret key for session.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;configure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;ROOT_URLCONF&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;SECRET_KEY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'your-randomly-generated-secret-key'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;TEMPLATES&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;BACKEND&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;django.template.backends.django.DjangoTemplates&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;DIRS&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BASE_DIR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;templates&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)],&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;MIDDLEWARE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;django.middleware.security.SecurityMiddleware&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;django.contrib.sessions.middleware.SessionMiddleware&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;django.middleware.common.CommonMiddleware&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;django.middleware.csrf.CsrfViewMiddleware&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;django.contrib.auth.middleware.AuthenticationMiddleware&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;django.contrib.messages.middleware.MessageMiddleware&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;django.middleware.clickjacking.XFrameOptionsMiddleware&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;divider&quot;&gt;...&lt;/div&gt;
+
+&lt;p&gt;You can use the power of Django and customize it to any folder structure that is best suited for you. And tremendously decrease your cognitive load, by scaling it down to a single file.&lt;/p&gt;
+
+&lt;h4 id=&quot;references&quot;&gt;References&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Carlton Gibson talk at DjangoCon US 2019 - &lt;a href=&quot;https://www.youtube.com/watch?v=w9cYEovduWI&quot;&gt;video&lt;/a&gt; and related &lt;a href=&quot;https://github.com/wsvincent/django-microframework&quot;&gt;github repository&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a single file landing page with Django - &lt;a href=&quot;https://www.youtube.com/watch?v=7XNChGGoBf0&quot;&gt;video by Arun Ravindran&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>awin</name></author><category term="featured" /><summary type="html">Django is a batteries included framework, packed with a lot of features. Can we use it to create a small app - say for example just to host a form or a list?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/assets/img/posts/microapps.jpg" /></entry></feed>

@@ -1,0 +1,39 @@
+---
+title: Neumeral Blog
+layout: default
+pagination:
+  enabled: true
+description: Helping businesses streamline their processes.
+---
+
+
+<div class="container">
+
+
+<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
+
+<div class="row mt-6">
+
+    <div class="col-md-8 main-loop">
+
+        <h4 class="font-weight-bold spanborder"><span>Stories on "{{ page.category }}"</span></h4>
+
+
+        {% for post in site.categories[page.category] %}
+            <!-- <div></div> -->
+            {% include main-loop-card.html %}
+        {% endfor %}
+
+
+
+    </div>
+
+    <div class="col-md-4">
+        {% include sidebar-featured.html %}
+    </div>
+
+</div>
+
+
+
+</div>
