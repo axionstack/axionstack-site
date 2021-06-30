@@ -19,8 +19,7 @@
   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
   <link rel="stylesheet" media="all" href="/static/css/styles.css" />
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-200885146-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-200885146-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -29,13 +28,14 @@
   gtag('config', 'UA-200885146-1');
 </script>
 
-  <script type="text/javascript">
+<script type="text/javascript">
 (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
 for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
 MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
 mixpanel.init("c1f2838bac8cbcd19febe5cb0051a174");
 mixpanel.track('Page View');
 </script>
+
 </head>
 
 <body>
@@ -48,9 +48,9 @@ mixpanel.track('Page View');
       <span class='mr-2 text-white'><img src="/static/images/logo-alt.svg" width='32px' /></span>
       Axion Stack
     </a>
-    <button aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler'
-      data-target='#navbarCollapse' data-toggle='collapse' type='button'>
-      <span class='navbar-toggler-icon'></span>
+    <button aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'
+      class='navbar-toggler border-0' data-target='#navbarCollapse' data-toggle='collapse' type='button'>
+      menu <span class='navbar-toggler-icon'></span>
     </button>
 
     <div class='collapse navbar-collapse' id='navbarCollapse'>
@@ -79,7 +79,7 @@ mixpanel.track('Page View');
     
 
     
-<section class='pb-2 pitch border-bottom'>
+<section class='pb-2 pitch'>
   <div class='container'>
     <div class='pb-5 row'>
       <div class='col-lg-7 col-md-9 py-3'>
@@ -89,7 +89,7 @@ mixpanel.track('Page View');
 
           <p class='my-3'><span class='lead'>Starter apps, tools and templates that will
               <a class='text-white highlight-underline' href='#'>save 100+ hours</a><sup></sup>,
-              so that you can focus on your business and launch faster</span>
+              so that you can focus on your business and launch faster.</span>
           </p>
 
           <p class='text-white mb-2 mt-4 badge bg-gray-700 p-2 rounded-heavy'>For Python and the Django Framework.</p>
@@ -130,7 +130,83 @@ mixpanel.track('Page View');
   </div>
 </section>
 
-<section class='section bg-light'>
+<section>
+  <div class='cwrap bg-yellow-700 pt-5'>
+    <div class='container'>
+      <div class='row align-items-center justify-content-center'>
+        <div class='col-6 text-center text-white'>
+          <span class='h3'>What you get?</span>
+          <p class='mt-3'>Use our products, to jumpstart on your new project or app. Some features are currently only
+            for Django projects.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class='container'>
+      <div class='mt-5 row row-grid'>
+        <div class='col-md-4 my-2'>
+          <div class='card p-3 shadow h-100'>
+
+            <div class="media">
+              <div class='mt-2 mr-2 rounded-circle px-2 py-1 rounded bg-warning text-white'>
+                <i class="las la-bullhorn"></i>
+              </div>
+              <div class="media-body">
+                <h5 class='mt-2 h4'>Landing Pages</h5>
+                <p class='mt-3'>Use our pre-built landing, pricing pages + 3 other page layouts, along with reusable
+                  elements to compose your own custom pages. </p>
+                <div class='my-2'><span class='badge badge-dark'>language agnostic</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-4 my-2'>
+          <div class='card p-3 shadow h-100'>
+
+            <div class="media">
+              <div class='mt-2 mr-2 rounded-circle px-2 py-1 rounded bg-warning text-white'>
+                <i class="las la-globe"></i>
+              </div>
+              <div class="media-body">
+                <h5 class='mt-2 h4'>Starter Kits</h5>
+                <p class='mt-3'>Use our SaaS starter boilerplate to spin up a django application with account management
+                  and a beautiful dashboard theme.
+                </p>
+                <div class='my-2'><span class='badge badge-dark'>django only</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-4 my-2'>
+          <div class='card p-3 shadow h-100'>
+
+            <div class="media">
+              <div class='mt-2 mr-2 rounded-circle px-2 py-1 rounded bg-warning text-white'>
+                <i class="las la-money-bill-wave-alt"></i>
+              </div>
+
+              <div class="media-body">
+                <h5 class='mt-2 h4'>Receive Payments</h5>
+                <p class='mt-3'>Use our SaaS Django starter boilerplate to start charging your customers with Stripe.
+                  Billing and subscriptions included.</p>
+                <div class='my-2'><span class='badge badge-dark'>django only</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+    <path fill="#b7791f" fill-opacity="1"
+      d="M0,64L120,85.3C240,107,480,149,720,144C960,139,1200,85,1320,58.7L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+    </path>
+  </svg>
+</section>
+
+
+<section class='py-8 border-bottom border-light'>
   <div class='container'>
     <div class='row row-grid align-items-center'>
       <div class='col-md-6 order-md-2'>
@@ -138,7 +214,7 @@ mixpanel.track('Page View');
       </div>
       <div class='col-md-6 order-md-1'>
         <div class='pr-md-5'>
-          <h3 class='mb-4'>How Axion Stack helps?</h3>
+          <h3 class='mb-4'>How can you use Axion Stack?</h3>
           <p><b>Get a Landing Page Up</b> - Use our pre-built landing and pricing pages, along with reusable Bootstrap 4
             elements to compose your own custom pages.</p>
           <p><b>Billing and Subscriptions</b> - Use our SaaS starter with stripe subscription and an admin dashboard,
@@ -270,8 +346,8 @@ mixpanel.track('Page View');
     <div class="container py-5">
       <div class="text-center text-white row align-items-center justify-content-center">
         <div class="pt-5 text-center col-lg-8">
-          <h3>I have used Axion Stack to bootstrap client projects and internal apps at our Agency. Always saved me
-            weeks of developer time!</h3>
+          <h3 class='font-weight-lighter'><i class='las la-quote-left'></i> I have used Axion Stack to bootstrap client
+            projects at our Agency. Always saved me weeks of developer time!</h3>
 
           <div class='mt-4 text-center d-flex justify-content-center align-items-center'>
             <img src="/static/images/awin.png" class='mr-2 rounded-circle' height="64px" /> Awin,
@@ -372,7 +448,7 @@ mixpanel.track('Page View');
             <a class='foot-link' href='#'>Documentation</a>
           </li>
           <li>
-            <a class='foot-link' href='#pricing'>Pricing</a>
+            <a class='foot-link' href='/launchkit'>Django Saas Boilerplate</a>
           </li>
         </ul>
       </div>

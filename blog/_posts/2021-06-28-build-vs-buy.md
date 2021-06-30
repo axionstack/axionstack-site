@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Build vs Buy - things to consider"
-subtitle: "Which tools should you use, to identify performance issues in a Rails Application"
+subtitle: "Some questions to consider before deciding to build code yourself or to buy an off-the-shelf solution"
 author: awin
 date: 2021-06-29 10:32:00 +0530
 categories: [ startup ]
@@ -9,7 +9,7 @@ image: "/assets/img/posts/build-buy.jpg"
 tags: [featured, sticky]
 ---
 
-What should you consider before deciding on building code yourself or to buy an off-the-shelf solution? Well, it depends.
+What should you consider before deciding to build code yourself or to buy an off-the-shelf solution? Well, it depends.
 
 <!-- more -->
 <br />

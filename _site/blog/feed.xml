@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-06-30T08:44:53+05:30</updated><id>/blog/feed.xml</id><title type="html">Axion Stack</title><subtitle>Toolkits for micro-SaaS</subtitle><entry><title type="html">Build vs Buy - things to consider</title><link href="/blog/build-vs-buy/" rel="alternate" type="text/html" title="Build vs Buy - things to consider" /><published>2021-06-29T10:32:00+05:30</published><updated>2021-06-29T10:32:00+05:30</updated><id>/blog/build-vs-buy</id><content type="html" xml:base="/blog/build-vs-buy/">&lt;p&gt;What should you consider before deciding on building code yourself or to buy an off-the-shelf solution? Well, it depends.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-06-30T18:18:19+05:30</updated><id>/blog/feed.xml</id><title type="html">Axion Stack</title><subtitle>Toolkits for micro-SaaS</subtitle><entry><title type="html">Build vs Buy - things to consider</title><link href="/blog/build-vs-buy/" rel="alternate" type="text/html" title="Build vs Buy - things to consider" /><published>2021-06-29T10:32:00+05:30</published><updated>2021-06-29T10:32:00+05:30</updated><id>/blog/build-vs-buy</id><content type="html" xml:base="/blog/build-vs-buy/">&lt;p&gt;What should you consider before deciding to build code yourself or to buy an off-the-shelf solution? Well, it depends.&lt;/p&gt;
 
 &lt;!-- more --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -68,7 +68,7 @@
 
 &lt;i&gt;&lt;strong&gt;Axion Stack&lt;/strong&gt; helps developers to cut-down time and money on getting a SaaS app up and running. This allows you to focus on your core business. &lt;a href=&quot;https://calendly.com/awin/lets-talk&quot;&gt;Schedule a call&lt;/a&gt; today, to know if it is a good fit for you.&lt;/i&gt;
 
-&lt;/div&gt;</content><author><name>awin</name></author><category term="featured" /><category term="sticky" /><summary type="html">What should you consider before deciding on building code yourself or to buy an off-the-shelf solution? Well, it depends.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/assets/img/posts/build-buy.jpg" /></entry><entry><title type="html">Finding a name for your app</title><link href="/blog/finding-a-name-for-your-app/" rel="alternate" type="text/html" title="Finding a name for your app" /><published>2021-06-26T01:32:00+05:30</published><updated>2021-06-26T01:32:00+05:30</updated><id>/blog/finding-a-name-for-your-app</id><content type="html" xml:base="/blog/finding-a-name-for-your-app/">&lt;p&gt;A “good” name helps to convey your message, and sometimes even help in its virality. It should just “click” for your prospective customers.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>awin</name></author><category term="featured" /><category term="sticky" /><summary type="html">What should you consider before deciding to build code yourself or to buy an off-the-shelf solution? Well, it depends.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/blog/assets/img/posts/build-buy.jpg" /></entry><entry><title type="html">Finding a name for your app</title><link href="/blog/finding-a-name-for-your-app/" rel="alternate" type="text/html" title="Finding a name for your app" /><published>2021-06-26T01:32:00+05:30</published><updated>2021-06-26T01:32:00+05:30</updated><id>/blog/finding-a-name-for-your-app</id><content type="html" xml:base="/blog/finding-a-name-for-your-app/">&lt;p&gt;A “good” name helps to convey your message, and sometimes even help in its virality. It should just “click” for your prospective customers.&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -172,9 +172,7 @@ Gives you ideas on how you can make domains by combining words, suffixes or pref
 
 &lt;!-- more --&gt;
 
-&lt;p&gt;Django comes with a lot of sane defaults.&lt;/p&gt;
-
-&lt;p&gt;It is a fully loaded framework and has a configurable auth module, and admin framework included.&lt;/p&gt;
+&lt;p&gt;And it comes with a lot of sane defaults. As a fully loaded framework, it has a configurable auth module, and admin framework included.&lt;/p&gt;
 
 &lt;p&gt;In the security department - it has XSS, CSRF, clickjacking and SQL injection protection built in. Read more about django security &lt;a href=&quot;https://docs.djangoproject.com/en/3.2/topics/security/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 

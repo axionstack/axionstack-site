@@ -14,9 +14,7 @@ Django is a batteries included framework, packed with a lot of features. Can we 
 
 <!-- more -->
 
-Django comes with a lot of sane defaults.
-
-It is a fully loaded framework and has a configurable auth module, and admin framework included.
+And it comes with a lot of sane defaults. As a fully loaded framework, it has a configurable auth module, and admin framework included.
 
 In the security department - it has XSS, CSRF, clickjacking and SQL injection protection built in. Read more about django security [here](https://docs.djangoproject.com/en/3.2/topics/security/).
 
