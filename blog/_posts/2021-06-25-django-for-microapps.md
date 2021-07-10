@@ -67,9 +67,9 @@ urlpatterns = [
 
 ##### 4. WSGI init
 ```python
-from django.core.handlers.wsgi import WSGIHandler
+from django.core.wsgi import get_wsgi_application
 
-application = WSGIHandler()
+application = get_wsgi_application()
 
 ```
 
@@ -111,7 +111,7 @@ You can make it a bit more functional, by creating a separate folder for templat
 import os
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve()
+BASE_DIR = Path(__file__).resolve().parent
 
 settings.configure(
     ROOT_URLCONF=__name__,

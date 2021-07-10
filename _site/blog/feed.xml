@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-07-10T23:11:55+05:30</updated><id>/blog/feed.xml</id><title type="html">Axion Stack</title><subtitle>Toolkits for micro-SaaS</subtitle><entry><title type="html">Build vs Buy - things to consider</title><link href="/blog/build-vs-buy/" rel="alternate" type="text/html" title="Build vs Buy - things to consider" /><published>2021-06-29T10:32:00+05:30</published><updated>2021-06-29T10:32:00+05:30</updated><id>/blog/build-vs-buy</id><content type="html" xml:base="/blog/build-vs-buy/">&lt;p&gt;What should you consider before deciding to build code yourself or to buy an off-the-shelf solution? Well, it depends.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="/blog/" rel="alternate" type="text/html" /><updated>2021-07-10T23:17:33+05:30</updated><id>/blog/feed.xml</id><title type="html">Axion Stack</title><subtitle>Toolkits for micro-SaaS</subtitle><entry><title type="html">Build vs Buy - things to consider</title><link href="/blog/build-vs-buy/" rel="alternate" type="text/html" title="Build vs Buy - things to consider" /><published>2021-06-29T10:32:00+05:30</published><updated>2021-06-29T10:32:00+05:30</updated><id>/blog/build-vs-buy</id><content type="html" xml:base="/blog/build-vs-buy/">&lt;p&gt;What should you consider before deciding to build code yourself or to buy an off-the-shelf solution? Well, it depends.&lt;/p&gt;
 
 &lt;!-- more --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -221,9 +221,9 @@ Gives you ideas on how you can make domains by combining words, suffixes or pref
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h5 id=&quot;4-wsgi-init&quot;&gt;4. WSGI init&lt;/h5&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.core.handlers.wsgi&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WSGIHandler&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django.core.wsgi&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_wsgi_application&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WSGIHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_wsgi_application&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -262,7 +262,7 @@ Gives you ideas on how you can make domains by combining words, suffixes or pref
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pathlib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;BASE_DIR&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__file__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;BASE_DIR&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__file__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parent&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;settings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;configure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;ROOT_URLCONF&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
