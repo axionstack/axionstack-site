@@ -78,7 +78,7 @@ Putting it all together, there is your django app in a single file.
 ```python
 
 from django.conf import settings
-from django.core.handlers.wsgi import WSGIHandler
+from django.core.wsgi import get_wsgi_application
 from django.http import HttpResponse
 from django.urls import path
 
@@ -93,7 +93,7 @@ urlpatterns = [
     path('', hello_world)
 ]
 
-application = WSGIHandler()
+application = get_wsgi_application()
 
 ```
 
@@ -133,6 +133,16 @@ Add middlewares, and secret key for session.
 settings.configure(
     ROOT_URLCONF=__name__,
     SECRET_KEY = 'your-randomly-generated-secret-key',
+
+    INSTALLED_APPS=[
+        "django.contrib.admin",
+        "django.contrib.auth",
+        "django.contrib.contenttypes",
+        "django.contrib.sessions",
+        "django.contrib.messages",
+        "django.contrib.staticfiles"
+    ],
+
     TEMPLATES=[
         {
             "BACKEND": "django.template.backends.django.DjangoTemplates",
@@ -142,15 +152,29 @@ settings.configure(
     MIDDLEWARE = [
         "django.middleware.security.SecurityMiddleware",
         "django.contrib.sessions.middleware.SessionMiddleware",
-        "django.middleware.common.CommonMiddleware",
         "django.middleware.csrf.CsrfViewMiddleware",
         "django.contrib.auth.middleware.AuthenticationMiddleware",
         "django.contrib.messages.middleware.MessageMiddleware",
         "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    ]
+    ],
+
 )
 
 ```
+
+You can view the final python file and the template here - [https://gist.github.com/awinabi/31c8ca60cc7fd807990c63dd54641e19](https://gist.github.com/awinabi/31c8ca60cc7fd807990c63dd54641e19)
+
+
+#### Notes
+
+- I tried adding `django.middleware.common.CommonMiddleware` to the list of middlewares, but for some reason it returns Bad Request (400).
+
+- Adding middlewares without adding `INSTALLED_APPS` throws an error
+
+- Use `get_wsgi_application` instead of `django.core.handlers.wsgi.WSGIHandler`, which fixes `AppRegistryNotReady` error.
+
+- When it becomes a little involved, it is better to stick to the django project folder; rather than restricting it to a single file.
+
 <div class='divider'>...</div>
 
 You can use the power of Django and customize it to any folder structure that is best suited for you. And tremendously decrease your cognitive load, by scaling it down to a single file.
